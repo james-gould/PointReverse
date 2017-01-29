@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<header>
+<script>
+function PointReverse() {
+
+    var latlng = document.getElementById('point').value;
+	var arr = latlng.split(",");
+	var lat, lon;
+	lon = arr[0];
+	lat = arr[1];
+	var reversed = lon + ',' + lat;
+	
+	document.getElementById('reversedPoint').innerHTML = reversed;
+}
+</script>
+</header>
+
+<body>
+Lat/lon point: <input type="text" id="point" value="" /><br>
+<button onclick="PointReverse()" value="Reverse Point"/>Reverse Point </button> <br>
+<p id="reversedPoint">
+</body>
