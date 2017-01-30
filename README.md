@@ -7,7 +7,7 @@ Probably the simplest script I've ever written and put on the internet but it's 
 
 Before: `51.5132264, -0.1333673`
 
-click `Reverse Point` 
+Click:  `Reverse Point` 
 
 After:  `-0.1333673, 51.5132264`
 
