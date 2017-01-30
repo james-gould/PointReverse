@@ -5,5 +5,10 @@ Probably the simplest script I've ever written and put on the internet but it's 
 
 # Usage
 
-Input a WGS84 coordinate such as `51.5132264, -0.1333673`, click `Reverse Point` 
-and copy the ouput of `-0.1333673, 51.5132264`
+Before: `51.5132264, -0.1333673`
+
+click `Reverse Point` 
+
+After:  `-0.1333673, 51.5132264`
+
+Incredible :unamused:
