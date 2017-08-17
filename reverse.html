@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <header>
 <script>
-function PointReverse() {
-
+  document.getElementById('reversePoint').addEventListener('click', _ => {
     var latlng = document.getElementById('point').value;
     var arr = latlng.split(",");
 	
     document.getElementById('reversedPoint').innerHTML = arr[1] + ', '  + arr[0];
-}
+  })
 </script>
 </header>
 
 <body>
 Lat/lon point: <input type="text" id="point" value="" /><br>
-<button onclick="PointReverse()" value="Reverse Point"/>Reverse Point </button> <br>
+<button id="reversePoint" value="Reverse Point"/>Reverse Point </button> <br>
 <p id="reversedPoint">
 </body>
